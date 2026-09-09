@@ -71,10 +71,10 @@ export const messages = {
     'The --src flag must not contain a single-quote character; it would break the generated JavaScript string literal.',
   InvalidUIEmbeddingSandboxToken:
     'Invalid sandbox tokens: %s. Valid tokens are: %s.',
-  MissingUIEmbeddingShellTitle:
-    'The --shell-title flag is required and must be a non-empty string used as the iframe accessible name.',
-  InvalidUIEmbeddingShellTitleChar:
-    'The --shell-title flag must not contain a double-quote character; it would break the generated HTML attribute.',
+  MissingUIEmbeddingTitle:
+    'The --title flag is required and must be a non-empty string used as the iframe accessible name.',
+  InvalidUIEmbeddingTitleChar:
+    'The --title flag must not contain a double-quote character; it would break the generated HTML attribute.',
   UIEmbeddingBundle:
     'A Lightning Web Component that wraps the <lightning-ui-embedding> base component.',
 };

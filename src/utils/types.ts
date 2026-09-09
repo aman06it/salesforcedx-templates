@@ -200,7 +200,7 @@ export interface UIEmbeddingOptions extends TemplateOptions {
   componentname: string;
   src: string;
   sandbox: string;
-  shellTitle: string;
+  title: string;
   internal: boolean;
 }
 
